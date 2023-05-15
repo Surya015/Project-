@@ -5,10 +5,10 @@ print(dataset)
 import matplotlib.pyplot as plt
 %matplotlib inline
 
-plt.scatter(dataset['CSV DATA NAME'],dataset[' CSV DATA NAME '])
+plt.scatter(dataset['Passenger'],dataset['Fare'])
 
-x = dataset[['CSV DATA NAME ']]
-y = dataset['CSV DATA NAME ']
+x = dataset[['Passenegr']]
+y = dataset['Fare']
 
 x
 
